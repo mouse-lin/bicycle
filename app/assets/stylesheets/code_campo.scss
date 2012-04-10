@@ -1,5 +1,6 @@
 html, body {
-  background-color: #EEE;
+  background-image: url("images/background.png");
+  //background-color: captiontext;
 }
 
 body > footer {
@@ -74,7 +75,7 @@ table.clear-table {
   font-weight: bold;
   font-size: 11px;
   padding: 1px 4px;
-  background-color: #BFBFBF;
+  background-color: Peru;
   border-radius: 3px;
   -moz-border-radius: 3px;
 
@@ -137,7 +138,7 @@ table.item-list {
         text-decoration: none;
 
         &.read {
-          background-color: #EEE;
+         // background-color: #EEE;
         }
         &:hover {
           background-color: #AAA;
@@ -199,9 +200,9 @@ footer div > p {
 }
 
 .box {
-  background-color: white;
+  background-color: White;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 14px;
   margin-bottom: 10px;
   -moz-box-shadow: 0 0 0 1px #DDD;
   -webkit-box-shadow: 0 0 0 1px #DDD;

@@ -1,0 +1,42 @@
+#首页主栏底部 
+<section class="box no-padding">
+  <header>标签导航</header>
+  <table class="item-list">
+    <tbody>
+      <tr>
+        <td>开发</td>
+        <td class="tags">
+          <a href="/topics/tagged/ruby">Ruby</a>
+          <a href="/topics/tagged/ruby-on-rails">Ruby on Rails</a>
+          <a href="/topics/tagged/rubygems">RubyGems</a>
+          <a href="/topics/tagged/mongodb">MongoDB</a>
+          <a href="/topics/tagged/redis">Redis</a>
+          <a href="/topics/tagged/python">Python</a>
+          <a href="/topics/tagged/javascript">JavaScript</a>
+          <a href="/topics/tagged/jquery">jQuery</a>
+        </td>
+      </tr>
+      <tr>
+        <td>娱乐</td>
+        <td class="tags">
+          <a href="/topics/tagged/acg">ACG</a>
+          <a href="/topics/tagged/one-piece">One Piece</a>
+          <a href="/topics/tagged/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA">进击的巨人</a>
+          <a href="/topics/tagged/ps3">PS3</a>
+        </td>
+      </tr>
+      <tr>
+        <td>站务</td>
+        <td class="tags">
+          <a href="/topics/tagged/codecampo">综合</a>
+          <a href="/topics/tagged/campo-feature">功能特性</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+#底部代码
+<div class="box" style="padding:0 350px">
+  powerd by <b>Mouse</b> && <b>Yijie</b>
+<img width="20px 20px" style="margin:0 10px" src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/big.png"><b>惠大骑行者群</b>: 84560691
+</div>
