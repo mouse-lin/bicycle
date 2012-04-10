@@ -36,7 +36,7 @@
   </table>
 </section>
 #底部代码
-<div class="box" style="padding:0 350px">
-  powerd by <b>Mouse</b> && <b>Yijie</b>
-<img width="20px 20px" style="margin:0 10px" src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/big.png"><b>惠大骑行者群</b>: 84560691
-</div>
+<section class="box">
+  powerd by <b>Mouse</b> && <b>Yijie</b> || 
+  <img width="20px 20px"  src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/big.png"><b>惠大骑行者群</b>: 84560691
+</section>

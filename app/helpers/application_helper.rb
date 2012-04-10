@@ -1,9 +1,10 @@
+# -*- encoding : utf-8 -*-
 module ApplicationHelper
   def page_title
     if @page_title
-      "#{@page_title} - CodeCampo"
+      "#{@page_title} -  惠大骑行者"
     else
-      "CodeCampo"
+      "惠大骑行者"
     end
   end
 
