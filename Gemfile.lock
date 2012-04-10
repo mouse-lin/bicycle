@@ -5,7 +5,7 @@ GIT
     client_side_validations (3.2.0.beta.3)
 
 GEM
-  remote: http://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     actionmailer (3.2.3)
       actionpack (= 3.2.3)
