@@ -1,0 +1,15 @@
+development:
+  host: localhost
+  database: bicycle_development
+  identity_map_enabled: true
+
+test:
+  host: localhost
+  database: bicycle_test
+  identity_map_enabled: true
+
+# set these environment variables on your prod server
+production:
+  host: localhost
+  database: bicycle_production
+  identity_map_enabled: true
