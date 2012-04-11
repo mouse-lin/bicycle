@@ -13,4 +13,4 @@ production:
   host: localhost
   database: bicycle_production
   identity_map_enabled: true
-  uri: <%= ENV['MONGOHQ_URL'] %>
+  #uri: <%= ENV['MONGOHQ_URL'] %>

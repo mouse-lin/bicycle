@@ -9,28 +9,60 @@
 
 site = Site.new
 
-site.fragment.footer = <<-EOF
-<div class="pull-left">
-  <p>CodeCampo is a small community for web develeper and open source in <a href="https://github.com/chloerei/code_campo">Github</a> by <a href="https://twitter.com/chloerei">@chloerei</a>.</p>
-  <p>Feel free to use source code under MIT license.</p>
-</div>
-<div class="pull-right">
-  <p><a href="#top">Back to top</a></p>
-</div>
+#site.fragment.footer = <<-EOF
+#<div class="pull-left">
+#  <p>CodeCampo is a small community for web develeper and open source in <a href="https://github.com/chloerei/code_campo">Github</a> by <a href="https://twitter.com/chloerei">@chloerei</a>.</p>
+#  <p>Feel free to use source code under MIT license.</p>
+#</div>
+#EOF
+
+site.fragment.home_mainbar_bottom = <<-EOF
+  <section class="box no-padding">
+    <header>标签导航</header>
+    <table class="item-list">
+      <tbody>
+        <tr>
+          <td>活动</td>
+          <td class="tags">
+            <a href="/topics/tagged/短途">短途</a>
+            <a href="/topics/tagged/长途">长途</a>
+            <a href="/topics/tagged/惠州">惠州</a>
+          </td>
+        </tr>
+        <tr>
+          <td>技术 | 装备</td>
+          <td class="tags">
+            <a href="/topics/tagged/二手市场">二手市场</a>
+            <a href="/topics/tagged/one-piece">One Piece</a>
+          </td>
+        </tr>
+        <tr>
+          <td>站务</td>
+          <td class="tags">
+            <a href="/topics/tagged/codecampo">综合</a>
+            <a href="/topics/tagged/campo-feature">功能特性</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 EOF
 
-site.fragment.home_sidebar_bottom = <<-EOF
-<section class="box">
-  <header>Power by</header>
-  <a href="http://rubyonrails.org"><img src="/assets/rails.png" /></a>
-</section>
-EOF
+#site.fragment.home_sidebar_bottom = <<-EOF
+#<section class="box">
+#  <header>Power by</header>
+#  <a href="http://rubyonrails.org"><img src="/assets/rails.png" /></a>
+#</section>
+#EOF
 
 #底部
 site.fragment.footer = <<-EOF
 <section class="box">
   powerd by <b>Mouse</b> && <b>Yijie</b> || 
   <img width="20px 20px"  src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/big.png"><b>惠大骑行者群</b>: 84560691
+  <div class="pull-right">
+    <p><a href="#top">Back to top</a></p>
+  </div>
 </section>
 EOF
 
