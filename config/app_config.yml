@@ -4,6 +4,7 @@ defaults: &defaults
   admin_emails:
     - "admin@codecampo.com"
     - "linhongshimouse@gmail.com"
+    - "yijo1001@gmail.com"
 
 production:
   <<: *defaults
