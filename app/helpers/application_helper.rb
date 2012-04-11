@@ -2,7 +2,7 @@
 module ApplicationHelper
   def page_title
     if @page_title
-      "#{@page_title} -  惠大骑行者"
+      "#{@page_title} - 惠大骑行者"
     else
       "惠大骑行者"
     end
