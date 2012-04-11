@@ -11,6 +11,6 @@ test:
 # set these environment variables on your prod server
 production:
   host: localhost
-  database: bicycle_production
+  database: bicycle_development
   identity_map_enabled: true
   #uri: <%= ENV['MONGOHQ_URL'] %>
